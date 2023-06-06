@@ -1,0 +1,36 @@
+{
+  "name": "wombat-socket",
+  "version": "1.0.0",
+  "description": "A websocket library inspired by Socket.IO",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignwombat/wombat-socket.git"
+  },
+  "keywords": [
+    "websocket",
+    "socket.io",
+    "javascript",
+    "typescript",
+    "http"
+  ],
+  "author": "ignwombat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ignwombat/wombat-socket/issues"
+  },
+  "homepage": "https://github.com/ignwombat/wombat-socket#readme",
+  "peerDependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.5",
+    "@types/ws": "^8.5.4",
+    "typed-emitter": "^2.1.0"
+  }
+}
